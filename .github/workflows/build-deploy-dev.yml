@@ -10,13 +10,13 @@ jobs:
     environment: Development
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: deeplynx
           ref: development
 
       - name: Checkout tools repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: Digital-Engineering/kubernetes
           ref: development
@@ -46,7 +46,7 @@ jobs:
     needs: build-deeplynx-dev
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: deeplynx
           ref: development
@@ -114,12 +114,12 @@ jobs:
       needs: build-deeplynx-dev
       steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: deeplynx
           ref: development
       - name: Checkout tools repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: Digital-Engineering/kubernetes
           ref: development
@@ -193,7 +193,7 @@ jobs:
     environment: development
     needs: deploy-deeplynx-dev
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: development
       - shell: bash

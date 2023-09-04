@@ -10,13 +10,13 @@ jobs:
     environment: acceptance
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: deeplynx
           ref: main
 
       - name: Checkout tools repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: Digital-Engineering/kubernetes
           ref: main
@@ -47,7 +47,7 @@ jobs:
     needs: build-deeplynx-acc
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: deeplynx
           ref: main
@@ -115,13 +115,13 @@ jobs:
     needs: build-deeplynx-acc
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: deeplynx
           ref: main
 
       - name: Checkout tools repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: Digital-Engineering/kubernetes
           ref: main
@@ -195,7 +195,7 @@ jobs:
     environment: production
     needs: build-deeplynx-acc
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: main
       - shell: bash
@@ -212,7 +212,7 @@ jobs:
     environment: production
     needs: mirror-repository
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: main
       - uses: actions/setup-java@v3
