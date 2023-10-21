@@ -34,7 +34,7 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.4.4",
     "react-unity-webgl": "^9.4.0",
-    "sass": "^1.56.1",
+    "sass": "^1.68.0",
     "stylelint": "^14.15.0",
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-recess-order": "^3.0.0",
