@@ -127,7 +127,7 @@
         "express-handlebars": "^5.3.4",
         "express-validator": "^6.10.0",
         "express-winston": "^4.2.0",
-        "fast-xml-parser": "^4.2.4",
+        "fast-xml-parser": "^4.2.5",
         "flat": "^5.0.2",
         "fp-ts": "^2.11.3",
         "graphql": "^15.6.0",
@@ -172,7 +172,7 @@
         "xml-2-json-streaming": "^0.1.2",
         "xml-crypto": "^2.1.1",
         "xml-js": "^1.6.11",
-        "xml2js": "^0.4.23",
+        "xml2js": "^0.5.0",
         "yargs-parser": "^20.2.7"
     },
     "lint-staged": {
