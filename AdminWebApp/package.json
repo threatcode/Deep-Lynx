@@ -20,7 +20,7 @@
     "@vue/cli-plugin-vuex": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
     "@vue/eslint-config-typescript": "^11.0.0",
-    "axios": "^1.6.0",
+    "axios": "^1.6.3",
     "build-url": "^6.0.1",
     "codemirror": "^5.65.3",
     "codemirror-graphql": "^2.0.0",
