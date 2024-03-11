@@ -173,7 +173,7 @@ jobs:
           cd $GITHUB_WORKSPACE/kubernetes/deeplynx/manifests
           envsubst < development.yml > development_final.yml
       - uses: Azure/setup-kubectl@v3.1
-      - uses: Azure/k8s-set-context@v3.0
+      - uses: Azure/k8s-set-context@v4
         with:
           method: kubeconfig
           kubeconfig: ${{ secrets.KUBE_CONFIG }}
