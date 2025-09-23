@@ -70,7 +70,7 @@ jobs:
           cd $GITHUB_WORKSPACE/kubernetes/deeplynx/manifests
           envsubst < production.yml > production_final.yml
       - uses: azure/setup-kubectl@v3
-      - uses: azure/k8s-set-context@v3
+      - uses: azure/k8s-set-context@v4
         with:
           method: kubeconfig
           kubeconfig: ${{ secrets.KUBE_CONFIG }}
