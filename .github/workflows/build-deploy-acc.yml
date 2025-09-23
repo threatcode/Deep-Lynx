@@ -102,7 +102,7 @@ jobs:
               fi
           done
           echo -e "run:\nreg add "HKEY_LOCAL_MACHINE\SOFTWARE\Clients\Spreadsheet\Microsoft Excel\Capabilities\FileAssociations" /v ".tsv" /t REG_SZ /d "Excel.SLK" /f\nto associate .tsv with excel. You should only need to do this once." >> SCAN_READ_ME.txt
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: Azure_Container_Scan_Result
           path: |
