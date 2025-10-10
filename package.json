@@ -145,7 +145,7 @@
         "method-override": "^3.0.0",
         "minimist": "^1.2.5",
         "node-cache": "^5.1.2",
-        "nodemailer": "^6.6.5",
+        "nodemailer": "^7.0.7",
         "p-all": "^3.0.0",
         "p-limit": "^3.1.0",
         "p-map": "^4.0.0",
