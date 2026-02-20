@@ -161,7 +161,7 @@
         "pg-copy-streams": "^6.0.4",
         "pg-format": "^1.0.4",
         "pg-large-object": "^2.0.0",
-        "pg-query-stream": "^4.2.1",
+        "pg-query-stream": "^4.10.0",
         "reflect-metadata": "^0.1.13",
         "short-uuid": "^4.2.0",
         "tslib": "^2.3.0",
